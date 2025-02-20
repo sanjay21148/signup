@@ -1,0 +1,109 @@
+/*body{
+    background-color: rgb(0, 255, 221);
+}
+.container{
+    background-color: rgb(2, 10, 12);
+    width: 100%;
+    font-size: 60px;
+    color: aqua;
+}
+@media screen and (max-width:600px){
+    body{
+        rgb(0, 255, 221);
+    }
+}
+@media screen and (min-width:601px) and (max-width:900px){
+    body{
+        background-color: rgb(73, 73, 212);}
+.container{
+            background-color: red;
+            color: rgba(245, 245, 245, 0.815);
+        
+    }
+}
+@media screen and (min-width:901px) and (max-width:1200px) {
+    body{
+        background-color: white;
+    }
+    .container{
+        background-color: rgba(255, 68, 0, 0.747);
+        color: rgba(245, 245, 245, 0.815);
+        text-align: center; 
+    }
+}
+*/
+/*
+body{
+     background-repeat: no-repeat;
+     background-image: url(img.jpg);
+     background-attachment: scroll;
+     background-position: center;
+}
+*/
+ /*@media (max-width:768px){
+    nav ul li{
+        display: block;
+        margin: 10px 0;
+    }
+ main{
+    flex-direction: column;
+ }
+ .sidebar{
+    width: 100%;
+    margin: 0;
+ }
+}
+*/
+body{
+    background-image: url(img.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: antiquewhite;
+    bac
+}
+.container{
+    border: 13px solid black;
+    padding: 15px;
+    height: 300px;  
+    width: 50;
+    margin-top: 100px;
+    border-radius: 40px;
+}
+input{
+    border: none;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    background-color: rgba(156, 153, 150, 0.692);
+    padding-left: 10px;
+}
+.block{
+    margin-left: 50px;
+}
+.button{
+    border-radius: 20px;
+    width: 30%;
+    padding: 7px;
+    margin-left: 150px;
+    margin-top: 30px;
+    background-color: rgba(248, 244, 244, 0.5);
+    color: antiquewhite;    
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

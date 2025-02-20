@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: rgb(120, 66, 244);
+    
+    }
+    form{
+        border: 2px solid black;
+            border-radius: 15px;
+            padding: 5px none;
+            background-color: rgba(0, 0, 0, 0.4);
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 550px;
+            margin-right: 550px;
+    }
+    div{
+        
+            margin-left: 20px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: azure;
+            padding-right: 10px;
+            border-right: 0px;
+            border-bottom: 70px;
+    }
+    input{
+        border: none;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    h1{
+        color: rgb(22, 218, 142);
+    }
+    button{
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 40%;
+        padding: 7px;
+    }
+    .button{
+        border: 1px solid black;
+        border-radius: 20px;
+        width: 40%;
+        padding: 7px;
+    }
+</style>
+<body>
+    <form>
+        <div>
+        <h1>Sign Up</h1>
+        </div>
+        <div>
+        <input type="text" class="name" id="name" placeholder="enter your name" required>
+        </div>
+        <div>
+        <input type="email" class="name" id="mail" placeholder="enter email address" required>
+        </div>
+        <div>
+            <input type="number" class="name" id="mail" placeholder="enter mobile number" required>
+        </div>    
+        <div>
+        <button onclick="window.location.href='login.html';">submit</button>
+        </div>
+        <div>
+        <input type="reset" value="reset" class="button">
+    </div>
+</form>
+</body>
+</html>
