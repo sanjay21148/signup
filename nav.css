@@ -1,25 +1,65 @@
 body{
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      margin: 0%;
+     background-color: rgb(206, 138, 13);
 }
 .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: aqua;   
+    background-color: rgb(92, 81, 81);
 }
 .child1 ul{
     display: flex;
     list-style-type: none;
     gap: 10px;
+    color: aliceblue;
     
 }
 .child2 input{
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     border-radius: 30px;
     padding: 10px;
     width: 110%;
-    color: rgb(17, 16, 16);
+    color: black
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: aqua;
+    background-color: aliceblue;
+    border: none;
+}
+h1{
+    color: aliceblue;
+    justify-content: space-around;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+@media screen and (max-width:600px) {
+ .container{
+    background-color: rgb(92, 81, 81);
+    justify-content: space-around;
+    display: flex;
+    flex-direction:column;
+    width: 120px;
+    height: 1200px;
+    
+ }   
+ .child1 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+ }
+h1{
+    font-size: 30px;
+    margin-left: 10px;
+}
+li{
+    margin-top: 38px;
+    font-size: 25px;
+}
+.child2 input{
+    font-size: 20px;
+}
 }
