@@ -62,6 +62,66 @@ h1{
 }
 h3{
     filter:drop-shadow(10px 1px 3px rgba(245, 241, 241, 0.795));
-    
+}
+@media screen and (max-width:600px){
+.navbar-btn{
+    border: none;
+    background: none;
+    border: 1px solid white;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
+.navbar-btn span{
+    display: block;
+    width: 20px;
+    border-top: 1px solid white;
+}
+.navbar-btn span:not(:last-child){
+    margin-bottom: 5px;
+}
+.hide{
+    display: none;
+}
+.navbar-item ul{
+    list-style-type: none;
+    padding: 0;
+}
+.navbar-item ul li{
+    display: block;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.829);
+    border-right: 1px solid  rgba(255, 255, 255, 0.829);
+    box-shadow: 1px 10px 30px rgb(1, 240, 248);
+
+}
+.navbar-item ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+}
+.navbar-item ul li a:hover{
+    color: aqua;
+    
+}
+nav .navbar-item ul{
+ display: flex;
+ display: block;
+ align-items: center;
+ position: absolute;
+ left: 40px;
+ margin-top: 100px;
+}
+}
+@media (min-width:601px){
+.navbar-btn{
+    display: none;
+}
+}
